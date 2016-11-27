@@ -1,0 +1,106 @@
+html, body {
+	background-color: rgba(50, 150, 255, 0.6);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%
+}
+body {
+	display: table;
+	font-family: Work Sans;
+}
+.container {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle
+}
+.signUpBox {
+	background-color: white;
+	width: 500px;
+	margin: 0 auto;
+	min-height: 600px;
+	padding: 35px;
+	box-shadow: 0 5px 50px rgba(0, 0, 0, .5);
+}
+.logoContainer {
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 30px;
+}
+.logo {
+	position: relative;
+	width: 430px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+.createAccount {
+	text-align: center;
+	font-size: 24px;
+	border-radius: 5px;
+	width: 430px;
+	margin-bottom: 10px;
+}
+.inputParent {}
+.inputEmail, .inputPassword {}
+.form-control {
+	border-radius: 5px;
+}
+.submitInput {}
+.btn-info {
+	background: linear-gradient(to bottom, rgba(63, 136, 200, 1) 0%, rgba(77, 116, 185, 1) 50%, rgba(84, 104, 177, 1) 51%, rgba(90, 89, 167, 1) 71%);
+	border-radius: 5px;
+	width: 100%;
+	margin-top: 10px;
+}
+.break {
+	text-align: center;
+	margin-top: 50px;
+}
+.lefthr {
+	float: left;
+	left: 100px;
+	top 10px;
+	width: 190px;
+	margin-top: 10px;
+}
+.righthr {
+	float: right;
+	left: 400px;
+	top 10px;
+	width: 190px;
+	margin-top: 10px;
+}
+.title {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.socialMediaParent {
+	margin-bottom: 50px;
+}
+.facebookSignup {
+	text-align: center;
+	background-color: #3B5998;
+	border-radius: 5px;
+	width: 200px;
+	left: 15px;
+}
+.btn-facebook {
+	color: white;
+}
+.googleSignup {
+	text-align: center;
+	background-color: #DD4B39;
+	border-radius: 5px;
+	width: 200px;
+	left: 45px;
+}
+.btn-google {
+	color: white;
+}
+.terms {
+	text-align: center;
+	margin: 0px;
+}
